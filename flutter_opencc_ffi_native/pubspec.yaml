@@ -3,6 +3,7 @@ description: FFI implementation for the flutter_opencc_ffi plugin.
 repository: https://github.com/dolphinxx/flutter_opencc_ffi/flutter_opencc_ffi_native
 issue_tracker: https://github.com/dolphinxx/flutter_opencc_ffi/issues
 version: 0.0.3
+publish_to: none  # 패키지 배포를 막음
 
 environment:
   sdk: ">=2.12.0 <3.0.0"

@@ -3,6 +3,7 @@ description: Android platform implementation of flutter_opencc_ffi
 repository: https://github.com/dolphinxx/flutter_opencc_ffi/tree/master/flutter_opencc_ffi_android
 issue_tracker: https://github.com/dolphinxx/flutter_opencc_ffi/issues
 version: 0.0.3
+publish_to: none  # 패키지 배포를 막음
 
 environment:
   sdk: ">=2.12.0 <3.0.0"
@@ -19,9 +20,9 @@ flutter:
 dependencies:
   flutter:
     sdk: flutter
-  flutter_opencc_ffi_platform_interface: ^0.0.3
-#  flutter_opencc_ffi_platform_interface:
-#    path: ../flutter_opencc_ffi_platform_interface
-  flutter_opencc_ffi_native: ^0.0.3
-#  flutter_opencc_ffi_native:
-#    path: ../flutter_opencc_ffi_native
+#  flutter_opencc_ffi_platform_interface: ^0.0.3
+  flutter_opencc_ffi_platform_interface:
+    path: ../flutter_opencc_ffi_platform_interface
+#  flutter_opencc_ffi_native: ^0.0.3
+  flutter_opencc_ffi_native:
+    path: ../flutter_opencc_ffi_native
